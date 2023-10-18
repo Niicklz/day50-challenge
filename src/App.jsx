@@ -98,9 +98,10 @@ export const App = () => {
           <p className="counter">Score: {count}</p>
           <p className="time">Time: {time}</p>
           <figure
-            style={{ top: `${top}%`, left: `${left}%`, transform:`rotate(${rotate}deg)` }}
+            style={{ top: `${top}%`, left: `${left}%`, transform:`rotate(${rotate}deg)`, pointerEvents:`${clicked? "none": "all"}` }}
             className={`selected-img ${clicked ? "active" : ""}`}
             onClick={handleClicked}
+            
           >
             <img src={selected} alt="" />
           </figure>
