@@ -1,0 +1,108 @@
+body {
+    font-family: 'Press Start 2P', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #516dff;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.start-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+button {
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.container button {
+    padding: 1rem;
+    color: #516dff;
+}
+.selection-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', sans-serif;
+}
+.options-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.container h1 {
+    font-size: 32px;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.counter {
+    font-family: 'Press Start 2P', sans-serif;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.time {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.selection-container h2 {
+ font-size: 32px;
+ text-transform: capitalize;
+ text-align: center;
+}
+.game-container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    font-family: 'Press Start 2P', sans-serif;
+}
+.selected-img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+   
+}
+.selected-img img {
+    width: 100%;
+}
+
+.active {
+    width: 0%;
+    
+    transition:  0.3s;
+}
+
+.modal {
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', sans-serif;
+    flex-direction: column;
+    gap: 2rem;
+}

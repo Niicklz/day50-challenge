@@ -1,0 +1,28 @@
+.insect {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', sans-serif;
+}
+.insect:hover {
+    background-color: #fff;
+    color: #516dff;
+    cursor: pointer;
+}
+.insect figure {
+    width: 100px;
+    height: 100px;
+}
+
+.insect figure img {
+    width: 100%;
+}
+
+.insect h3 {
+    
+    font-size: 16px;
+}
